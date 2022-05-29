@@ -1,5 +1,6 @@
 import logging
 import requests
+
 '''
 NOTSET - 0
 DEBUG - 10
@@ -8,6 +9,7 @@ WARNING - 30
 ERROR - 40
 CRITICAL - 50
 '''
+
 logging.basicConfig(level='DEBUG', filename='mylog.log')
 logger = logging.getLogger()
 print(logger)
